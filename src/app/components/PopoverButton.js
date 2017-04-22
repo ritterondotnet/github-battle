@@ -12,6 +12,7 @@ const menu = (
     <MenuItem text="New" />
     <MenuItem text="Open" />
     <MenuItem text="Save" />
+    <MenuItem text="Print" />
     <MenuDivider />
     <MenuItem text="Settings..." />
   </Menu>
