@@ -1,3 +1,5 @@
+/* @flow */
+var React = require('react');
 import {
   Button,
   Menu,
@@ -23,6 +25,6 @@ const PopoverButton = {
     <Popover content={menu} position={Position.BOTTOM_RIGHT}>
       <Button text="Actions" />
     </Popover>
-}
+};
 
 module.exports = PopoverButton;

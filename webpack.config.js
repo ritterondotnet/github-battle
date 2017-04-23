@@ -19,7 +19,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({template: 'src/app/index.html'}),
-    new FaviconsWebpackPlugin('./src/app/assets/images/logo.png'),
+    new FaviconsWebpackPlugin('./src/app/assets/images/8ball.png'),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
     })]

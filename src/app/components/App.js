@@ -2,7 +2,6 @@
 var React = require('react');
 var Popular = require('./Popular');
 var SelectList = require('./SelectList');
-var PopoverButton = require('./PopoverButton');
 
 class App extends React.Component {
   constructor (props) {
@@ -36,7 +35,7 @@ class App extends React.Component {
         </div>
         <div className="row">
           <div className="col-md-12">
-            <PopoverButton/>
+
           </div>
         </div>
       </div>

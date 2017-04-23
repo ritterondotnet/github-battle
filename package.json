@@ -28,6 +28,11 @@
   "license": "ISC",
   "dependencies": {
     "@blueprintjs/core": "^1.15.0",
+    "@types/moment": "^2.13.0",
+    "@types/pure-render-decorator": "^0.2.27",
+    "@types/react": "^15.0.22",
+    "@types/react-addons-css-transition-group": "^15.0.2",
+    "@types/react-dom": "^15.5.0",
     "axios": "^0.16.1",
     "crypto": "0.0.3",
     "firebase": "^3.8.0",
@@ -37,7 +42,9 @@
     "react-addons-css-transition-group": "^15.5.2",
     "react-dom": "^15.5.4",
     "react-firebase": "^2.2.5",
-    "react-loader": "^2.4.0"
+    "react-loader": "^2.4.0",
+    "react-router": "^4.1.1",
+    "reactfire": "^1.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
