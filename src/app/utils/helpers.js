@@ -9,7 +9,8 @@ function getUserInfo(username) {
   return axios.get(`https://api.github.com/users/${username}`);
 }
 
-var helpers = {
+var Helpers = {
+  Languages: ['All', 'C#', 'Go', 'ReactJs', 'Javascript', 'Ruby', 'Java', 'CSS', 'Python', 'Shell', 'C', 'Perl', 'HTML', 'PHP', 'Rust', 'TypeScript'],
   getGithubInfo(username) {
     return axios.all([getRepos(username), getUserInfo(username)])
       .then((arr) => {
@@ -21,4 +22,4 @@ var helpers = {
   }
 };
 
-export default helpers;
+export default Helpers;

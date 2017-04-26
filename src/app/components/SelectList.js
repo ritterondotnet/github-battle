@@ -1,7 +1,6 @@
 var React = require('react');
 var api = require('../utils/api');
-
-const languages = ['All', 'C#', 'Go', 'ReactJs', 'Javascript', 'Ruby', 'Java', 'CSS', 'Python', 'Shell', 'C', 'VimL', 'Perl', 'HTML', 'Vim Script', 'PHP', 'Rust', 'TypeScript', 'Scala', 'Elixir'];
+var helpers = require('../../../dist/app/utils/helpers');
 
 const showMessage = function (e) {
   e.preventDefault();
@@ -12,7 +11,7 @@ const showMessage = function (e) {
 const SelectList = (props) => (
   <select className="custom-select" onChange={showMessage}>
     {
-      languages.map((lang, index) => {
+      helpers.Languages.map((lang, index) => {
         return (
           <option
             value={lang}

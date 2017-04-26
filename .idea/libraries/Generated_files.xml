@@ -1691,7 +1691,7 @@
       <root url="file://$PROJECT_DIR$/node_modules/cheerio/node_modules/lodash/lang/isArray-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/cheerio/node_modules/lodash/lang/lte-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/cheerio/node_modules/lodash/lang/clone-compiled.js" />
-      <root url="file://$PROJECT_DIR$/src/app/index-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/public/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/cheerio/node_modules/lodash/lang/lt-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/app/components/Clock-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/cheerio/node_modules/lodash/lang/isEqual-compiled.js" />

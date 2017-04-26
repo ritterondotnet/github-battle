@@ -1,6 +1,10 @@
 /* @flow */
 import React from 'react';
-import {render} from 'react-dom';
-import routes from './config/routes';
+import ReactDOM from 'react-dom';
+import Routes from './config/routes';
+require('./assets/css/index.css');
 
-render(routes, document.getElementById('app'));
+ReactDOM.render(
+  <Routes/>,
+  document.getElementById('app')
+);

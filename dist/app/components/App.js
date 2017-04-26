@@ -11,7 +11,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var React = require('react');
 var Popular = require('./Popular');
 var SelectList = require('./SelectList');
-var PopoverButton = require('./PopoverButton');
 
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
@@ -70,11 +69,7 @@ var App = function (_React$Component) {
         React.createElement(
           'div',
           { className: 'row' },
-          React.createElement(
-            'div',
-            { className: 'col-md-12' },
-            React.createElement(PopoverButton, null)
-          )
+          React.createElement('div', { className: 'col-md-12' })
         )
       );
     }

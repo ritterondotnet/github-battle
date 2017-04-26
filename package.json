@@ -34,8 +34,10 @@
     "@types/react-addons-css-transition-group": "^15.0.2",
     "@types/react-dom": "^15.5.0",
     "axios": "^0.16.1",
+    "bootstrap-loader": "^2.0.0",
     "crypto": "0.0.3",
     "firebase": "^3.8.0",
+    "mongoose": "^4.9.6",
     "os": "^0.1.1",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
@@ -44,6 +46,9 @@
     "react-firebase": "^2.2.5",
     "react-loader": "^2.4.0",
     "react-router": "^4.1.1",
+    "react-router-config": "^1.0.0-beta.3",
+    "react-router-dom": "^4.1.1",
+    "react-select": "^1.0.0-rc.3",
     "reactfire": "^1.0.0"
   },
   "devDependencies": {
