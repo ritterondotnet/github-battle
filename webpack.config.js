@@ -1,5 +1,3 @@
-const hostname = require('os');
-const createHash = require('create-hash');
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');

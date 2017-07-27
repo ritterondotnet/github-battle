@@ -67,3 +67,6 @@ li{
   font-family: Gabriola; /* available on Windows 7, and on Mac OS */
   font-feature-settings: "smcp", "swsh" 2;
 }
+.dropdown-item{
+  font-size: 14px;
+}

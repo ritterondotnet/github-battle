@@ -14,4 +14,7 @@ var _routes2 = _interopRequireDefault(_routes);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+require('./assets/css/index.css');
+
+
 _reactDom2.default.render(_react2.default.createElement(_routes2.default, null), document.getElementById('app'));
